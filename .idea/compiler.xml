@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot-recive-rabbitmq" />
+        <module name="springboot-recive-rabbitmq-2" />
+        <module name="springboot-recive-rabbitmq-3" />
+        <module name="springboot-send-rabbitmq" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springboot-rabbitmq-day1" target="1.8" />
+      <module name="springboot-recive-rabbitmq" target="1.8" />
+      <module name="springboot-recive-rabbitmq-2" target="1.8" />
+      <module name="springboot-recive-rabbitmq-3" target="1.8" />
+      <module name="springboot-send-rabbitmq" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
